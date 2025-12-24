@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "jeffersongoncalves/filament-refresh-sidebar": "*",
         "jeffersongoncalves/laravel-cep": "dev-master",
         "jeffersongoncalves/laravel-cookie-consent": "dev-master",
         "jeffersongoncalves/laravel-created-by": "dev-master",
@@ -104,51 +105,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/laravel-cep"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-cookie-consent"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-created-by"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-fake-cartoons"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-fathom"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-gtag"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-gtm"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-matomo"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-pixel"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-plausible"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-umami"
-        },
-        {
-            "type": "path",
-            "url": "./packages/laravel-whatsapp-widget"
+            "url": "./packages/*"
         }
     ]
 }
