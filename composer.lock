@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "706d89062d82627e24c01f40a95a5373",
+    "content-hash": "15447fa5f5cb09b21c45df5716d361ff",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2328,7 +2328,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-ace-editor-field",
-                "reference": "e7d8c21aa7e617204dbbf72a6220454877ef3495"
+                "reference": "9e88ab74bb89b4dbcfc454d02dce79adc6646ef2"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2384,6 +2384,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2393,7 +2394,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-cep-field",
-                "reference": "a5dc621411297ba49686c8d9524fb6b95641dcac"
+                "reference": "e21d5e9afef6a36107f449d2f55b8d04130ff4b8"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2463,6 +2464,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2472,7 +2474,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-check-whois-widget",
-                "reference": "1326a1823abc450fa08a2741dc433226a0936301"
+                "reference": "f2aca5c49f229ae31aef5e02fb20dcaeece05177"
             },
             "require": {
                 "ashallendesign/favicon-fetcher": "^3.5",
@@ -2550,6 +2552,7 @@
                 "source": "https://github.com/jeffersongoncalves/filament-check-whois-widget"
             },
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2559,7 +2562,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-cookie-consent",
-                "reference": "ea8f5049c0b4cd96ac4f58e87d7dab5feff3d28f"
+                "reference": "e929be1e48311bd0b4e7d11f5cf154917f173c65"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2615,6 +2618,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2624,7 +2628,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-fathom",
-                "reference": "766481638e46900be35f8b4744db30acafb6459f"
+                "reference": "3afce31d3f2003ada5a9b6f74c0097fbc183be10"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2680,6 +2684,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2689,7 +2694,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-gtag",
-                "reference": "81c4af9cca05de49981e53081a4a416251b7a36a"
+                "reference": "1ec47ddfd2764a1896b2d5a67ff5c32da7600ea8"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2745,6 +2750,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2754,7 +2760,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-gtm",
-                "reference": "9ed6572ff78eb68f913a8d11f973a372e6354c3b"
+                "reference": "6828ac07305b268209d2ba54902a5fbdbd48bd71"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2810,6 +2816,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2819,7 +2826,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-hidden-action",
-                "reference": "bbafa5ccc6adfee2836d31e89a2badff14dfcbc1"
+                "reference": "af4cc1c859fa604c9a29d10430b10377ac22e038"
             },
             "require": {
                 "filament/actions": "^4.0",
@@ -2876,6 +2883,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2885,7 +2893,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-keyable",
-                "reference": "48f0ed415cc9858d30bdf36ff666f108cbf6a572"
+                "reference": "9f9bb390c44dd136c338c2d98a74fda93fbdc64d"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2942,6 +2950,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2951,7 +2960,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-logo",
-                "reference": "f4b785325e33a15385b9ca86f72ab16f9bb1faf1"
+                "reference": "38477a253bebd61bc9829267acd9dcf09bd831cf"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3006,6 +3015,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3015,7 +3025,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-matomo",
-                "reference": "e04361d304b14dbdfb0a7cb56a40775aa133bdba"
+                "reference": "2c99764895e521406b1fe3d4dc97f97fc23b5d84"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3071,6 +3081,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3080,7 +3091,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-multifactor-whatsapp",
-                "reference": "61780553d3f621d1d34d0dd6b0af4142d647dce5"
+                "reference": "6eed23a35f880ec65a462324ded3e60ab2fbc55b"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3147,6 +3158,7 @@
                 "whatsapp-connector"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3156,7 +3168,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-one-time-operations",
-                "reference": "adbb202c1260d3e7e9e3d2289b2de79acf0913f0"
+                "reference": "4bc18ee77b48839a55f23b5b0254bde7f5fbc520"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3213,6 +3225,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3222,7 +3235,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-pixel",
-                "reference": "923a97be4fc66335de42cdfd583277c0bb751db1"
+                "reference": "61798b77f25d93e99645fdcfa08b158aa9f51f94"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3278,6 +3291,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3287,7 +3301,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-plausible",
-                "reference": "79dbd9c69ff1caa6b18ad7c1762001ed997657c7"
+                "reference": "9f287aa5893df60805ad3292d07629e69745a4db"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3343,6 +3357,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3352,7 +3367,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-qrcode-field",
-                "reference": "2c443181bbb3194b5c3db9024a4ddecc5be5e49e"
+                "reference": "e52911e84a83cf1a0f6343613330034e00829a0f"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3407,6 +3422,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3416,7 +3432,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-refresh-sidebar",
-                "reference": "563989754e825dec367884116379ce9fcbf029fd"
+                "reference": "3875f4b835f3160fa29b60d86cba101a424348a7"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3475,6 +3491,7 @@
                 "sidebar"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3484,7 +3501,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-topbar",
-                "reference": "4e025cda32b2267c8b39a2e2147d314fa8afc483"
+                "reference": "3e7bc27421c1fdd7f744c8ea7388e2d1b7546260"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3539,6 +3556,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3548,7 +3566,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-umami",
-                "reference": "a0c8796a939e0e1c3f9380e6d324ebc95f6582ac"
+                "reference": "b83308e164907cdbe066a2eca558c0e7c87a1207"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3604,6 +3622,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3613,7 +3632,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/filament-whatsapp-widget",
-                "reference": "063c0442029f85104f976824be08793116302977"
+                "reference": "3687aadb233370fc11085fb06f50ae1692d112c1"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3670,6 +3689,7 @@
                 "laravel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3679,7 +3699,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-cep",
-                "reference": "16b787575b3ab81657c7218c5f7b10184ba0dae7"
+                "reference": "7607251e2a0db6fe39c13c1e5cb06630837fd67c"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3743,6 +3763,7 @@
                 "laravel-cep"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3752,7 +3773,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-cookie-consent",
-                "reference": "df66ed04f187ac4027c54ee433b1697578b1397c"
+                "reference": "b04133b33de6496830a527096d483d537e5005bd"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3805,6 +3826,7 @@
                 "laravel-cookie-consent"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3814,7 +3836,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-created-by",
-                "reference": "c8d187398610773b69208d25e4bac3218f19d0f5"
+                "reference": "e48cbf92505a1ff2b3d2ddfba8ec9c3a505be086"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3880,6 +3902,7 @@
                 "laravel-created-by"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3889,7 +3912,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-fake-cartoons",
-                "reference": "d2b303d0957a26aca5534fa631697dc336dd98bd"
+                "reference": "8e03733a8063112c73e9f5ef89d6259e2611bbd3"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3948,6 +3971,7 @@
                 "laravel-fake-cartoons"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -3957,7 +3981,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-fathom",
-                "reference": "c7a594470a779a97aa6a24a66c3b418c0ac09f93"
+                "reference": "8350e74cbd1de1710cc9fcdccee7e9ce0f65ee95"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4018,6 +4042,7 @@
                 "laravel-fathom"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4027,7 +4052,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-gtag",
-                "reference": "80af5953e940fa2465afeb0ec627f63d8568c98d"
+                "reference": "2a31785a9f3145bdd97953c9edaf65773f6fd080"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4088,6 +4113,7 @@
                 "laravel-gtag"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4097,7 +4123,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-gtm",
-                "reference": "9146418f712e588077c0f5f41b9fe13d0866c950"
+                "reference": "cd72b362d564836ff63ac6a37d5cdaa77b2f1180"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4158,6 +4184,7 @@
                 "laravel-gtm"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4167,7 +4194,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-matomo",
-                "reference": "32011a38faae7306483af5a7f68676a9246b5be2"
+                "reference": "9cd2e09359d5e7c6ecab433ac1fee0ecff620aca"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4228,6 +4255,7 @@
                 "laravel-matomo"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4237,7 +4265,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-pixel",
-                "reference": "92b77b98fbf160692f242cf69971fb58a252a612"
+                "reference": "8bdfdbbed0b4a5de3fac2fde06b3da91f7923a57"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4298,6 +4326,7 @@
                 "laravel-pixel"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4307,7 +4336,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-plausible",
-                "reference": "69147afe5ae703c56ef1bfe2a3202ef30d599182"
+                "reference": "54498527b2c17940157a34d49ca4e0600f86812c"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4368,6 +4397,7 @@
                 "laravel-plausible"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4377,7 +4407,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-umami",
-                "reference": "aa1bc8266a038c4a3d4dcd34a463348b1368d8ed"
+                "reference": "30878f86b065024c85b50e63c87eb0684d5f0b23"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4438,6 +4468,7 @@
                 "laravel-umami"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -4447,7 +4478,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/laravel-whatsapp-widget",
-                "reference": "8b1459fecf9f614f5cb8cb82aebd681508e23412"
+                "reference": "e3f6838f779251cc9a188dfb87d3a8d3a0487197"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4513,6 +4544,7 @@
                 "laravel-whatsapp-widget"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -11352,6 +11384,84 @@
             "time": "2024-11-21T01:49:47+00:00"
         },
         {
+            "name": "wallacemartinss/filament-icon-picker",
+            "version": "v1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wallacemartinss/filament-icon-picker.git",
+                "reference": "9ef04217713bd088b12b9380cfc1b78b5a16dc5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wallacemartinss/filament-icon-picker/zipball/9ef04217713bd088b12b9380cfc1b78b5a16dc5c",
+                "reference": "9ef04217713bd088b12b9380cfc1b78b5a16dc5c",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "filament/filament": "^4.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.26",
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "suggest": {
+                "blade-ui-kit/blade-heroicons": "Heroicons - 1300+ icons (recommended)",
+                "blade-ui-kit/blade-tabler-icons": "Tabler Icons - 4400+ icons",
+                "codeat3/blade-bootstrap-icons": "Bootstrap Icons - 2000+ icons",
+                "codeat3/blade-google-material-design-icons": "Google Material Design - 10000+ icons",
+                "codeat3/blade-phosphor-icons": "Phosphor Icons - 9000+ icons",
+                "codeat3/blade-remix-icon": "Remix Icons - 2800+ icons",
+                "mallardduck/blade-lucide-icons": "Lucide Icons - 1400+ icons",
+                "owenvoke/blade-fontawesome": "Font Awesome - 2800+ icons"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wallacemartinss\\FilamentIconPicker\\FilamentIconPickerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wallacemartinss\\FilamentIconPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wallace Martins",
+                    "email": "wallacemartinss@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful icon picker component for Filament v4 using blade-ui-kit/blade-icons",
+            "homepage": "https://github.com/wallacemartinss/filament-icon-picker",
+            "keywords": [
+                "FontAwesome",
+                "Heroicons",
+                "Phosphor",
+                "blade-icons",
+                "filament",
+                "filament-plugin",
+                "icon-picker",
+                "laravel",
+                "material-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/wallacemartinss/filament-icon-picker/issues",
+                "source": "https://github.com/wallacemartinss/filament-icon-picker/tree/v1.4.4"
+            },
+            "time": "2025-12-08T15:12:49+00:00"
+        },
+        {
             "name": "wallacemartinss/filament-whatsapp-conector",
             "version": "v1.0.0",
             "source": {
@@ -11549,6 +11659,237 @@
     ],
     "packages-dev": [
         {
+            "name": "barryvdh/laravel-debugbar",
+            "version": "v3.16.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "reference": "730dbf8bf41f5691e026dd771e64dd54ad1b10b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/730dbf8bf41f5691e026dd771e64dd54ad1b10b3",
+                "reference": "730dbf8bf41f5691e026dd771e64dd54ad1b10b3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/routing": "^10|^11|^12",
+                "illuminate/session": "^10|^11|^12",
+                "illuminate/support": "^10|^11|^12",
+                "php": "^8.1",
+                "php-debugbar/php-debugbar": "^2.2.4",
+                "symfony/finder": "^6|^7"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench-dusk": "^7|^8|^9|^10",
+                "phpunit/phpunit": "^9.5.10|^10|^11",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Debugbar": "Barryvdh\\Debugbar\\Facades\\Debugbar"
+                    },
+                    "providers": [
+                        "Barryvdh\\Debugbar\\ServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "3.16-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "PHP Debugbar integration for Laravel",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "dev",
+                "laravel",
+                "profiler",
+                "webprofiler"
+            ],
+            "support": {
+                "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.16.2"
+            },
+            "funding": [
+                {
+                    "url": "https://fruitcake.nl",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/barryvdh",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-03T14:52:46+00:00"
+        },
+        {
+            "name": "barryvdh/laravel-ide-helper",
+            "version": "v3.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/laravel-ide-helper.git",
+                "reference": "b106f7ee85f263c4f103eca49e7bf3862c2e5e75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/b106f7ee85f263c4f103eca49e7bf3862c2e5e75",
+                "reference": "b106f7ee85f263c4f103eca49e7bf3862c2e5e75",
+                "shasum": ""
+            },
+            "require": {
+                "barryvdh/reflection-docblock": "^2.4",
+                "composer/class-map-generator": "^1.0",
+                "ext-json": "*",
+                "illuminate/console": "^11.15 || ^12",
+                "illuminate/database": "^11.15 || ^12",
+                "illuminate/filesystem": "^11.15 || ^12",
+                "illuminate/support": "^11.15 || ^12",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "ext-pdo_sqlite": "*",
+                "friendsofphp/php-cs-fixer": "^3",
+                "illuminate/config": "^11.15 || ^12",
+                "illuminate/view": "^11.15 || ^12",
+                "mockery/mockery": "^1.4",
+                "orchestra/testbench": "^9.2 || ^10",
+                "phpunit/phpunit": "^10.5 || ^11.5.3",
+                "spatie/phpunit-snapshot-assertions": "^4 || ^5",
+                "vimeo/psalm": "^5.4",
+                "vlucas/phpdotenv": "^5"
+            },
+            "suggest": {
+                "illuminate/events": "Required for automatic helper generation (^6|^7|^8|^9|^10|^11)."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "3.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Barryvdh\\LaravelIdeHelper\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+            "keywords": [
+                "autocomplete",
+                "codeintel",
+                "dev",
+                "helper",
+                "ide",
+                "laravel",
+                "netbeans",
+                "phpdoc",
+                "phpstorm",
+                "sublime"
+            ],
+            "support": {
+                "issues": "https://github.com/barryvdh/laravel-ide-helper/issues",
+                "source": "https://github.com/barryvdh/laravel-ide-helper/tree/v3.6.1"
+            },
+            "funding": [
+                {
+                    "url": "https://fruitcake.nl",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/barryvdh",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-10T09:11:07+00:00"
+        },
+        {
+            "name": "barryvdh/reflection-docblock",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/barryvdh/ReflectionDocBlock.git",
+                "reference": "d103774cbe7e94ddee7e4870f97f727b43fe7201"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/d103774cbe7e94ddee7e4870f97f727b43fe7201",
+                "reference": "d103774cbe7e94ddee7e4870f97f727b43fe7201",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.14|^9"
+            },
+            "suggest": {
+                "dflydev/markdown": "~1.0",
+                "erusev/parsedown": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Barryvdh": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "mike.vanriel@naenius.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/barryvdh/ReflectionDocBlock/tree/v2.4.0"
+            },
+            "time": "2025-07-17T06:07:30+00:00"
+        },
+        {
             "name": "brianium/paratest",
             "version": "v7.16.0",
             "source": {
@@ -11640,6 +11981,154 @@
                 }
             ],
             "time": "2025-12-09T20:03:26+00:00"
+        },
+        {
+            "name": "composer/class-map-generator",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/class-map-generator.git",
+                "reference": "2373419b7709815ed323ebf18c3c72d03ff4a8a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/2373419b7709815ed323ebf18c3c72d03ff4a8a6",
+                "reference": "2373419b7709815ed323ebf18c3c72d03ff4a8a6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/pcre": "^2.1 || ^3.1",
+                "php": "^7.2 || ^8.0",
+                "symfony/finder": "^4.4 || ^5.3 || ^6 || ^7 || ^8"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.12 || ^2",
+                "phpstan/phpstan-deprecation-rules": "^1 || ^2",
+                "phpstan/phpstan-phpunit": "^1 || ^2",
+                "phpstan/phpstan-strict-rules": "^1.1 || ^2",
+                "phpunit/phpunit": "^8",
+                "symfony/filesystem": "^5.4 || ^6 || ^7 || ^8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\ClassMapGenerator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "Utilities to scan PHP code and generate class maps.",
+            "keywords": [
+                "classmap"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/class-map-generator/issues",
+                "source": "https://github.com/composer/class-map-generator/tree/1.7.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-11-19T10:41:15+00:00"
+        },
+        {
+            "name": "composer/pcre",
+            "version": "3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/pcre.git",
+                "reference": "b2bed4734f0cc156ee1fe9c0da2550420d99a21e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/b2bed4734f0cc156ee1fe9c0da2550420d99a21e",
+                "reference": "b2bed4734f0cc156ee1fe9c0da2550420d99a21e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan": "<1.11.10"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.12 || ^2",
+                "phpstan/phpstan-strict-rules": "^1 || ^2",
+                "phpunit/phpunit": "^8 || ^9"
+            },
+            "type": "library",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Pcre\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "PCRE wrapping library that offers type-safe preg_* replacements.",
+            "keywords": [
+                "PCRE",
+                "preg",
+                "regex",
+                "regular expression"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/pcre/issues",
+                "source": "https://github.com/composer/pcre/tree/3.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-11-12T16:29:46+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -11888,6 +12377,47 @@
             "time": "2025-04-30T06:54:44+00:00"
         },
         {
+            "name": "iamcal/sql-parser",
+            "version": "v0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iamcal/SQLParser.git",
+                "reference": "947083e2dca211a6f12fb1beb67a01e387de9b62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iamcal/SQLParser/zipball/947083e2dca211a6f12fb1beb67a01e387de9b62",
+                "reference": "947083e2dca211a6f12fb1beb67a01e387de9b62",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^1.0",
+                "phpunit/phpunit": "^5|^6|^7|^8|^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iamcal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cal Henderson",
+                    "email": "cal@iamcal.com"
+                }
+            ],
+            "description": "MySQL schema parser",
+            "support": {
+                "issues": "https://github.com/iamcal/SQLParser/issues",
+                "source": "https://github.com/iamcal/SQLParser/tree/v0.6"
+            },
+            "time": "2025-03-17T16:59:46+00:00"
+        },
+        {
             "name": "jean85/pretty-package-versions",
             "version": "2.1.1",
             "source": {
@@ -11946,6 +12476,96 @@
                 "source": "https://github.com/Jean85/pretty-package-versions/tree/2.1.1"
             },
             "time": "2025-03-19T14:43:43+00:00"
+        },
+        {
+            "name": "larastan/larastan",
+            "version": "v3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larastan/larastan.git",
+                "reference": "ff3725291bc4c7e6032b5a54776e3e5104c86db9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larastan/larastan/zipball/ff3725291bc4c7e6032b5a54776e3e5104c86db9",
+                "reference": "ff3725291bc4c7e6032b5a54776e3e5104c86db9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "iamcal/sql-parser": "^0.6.0",
+                "illuminate/console": "^11.44.2 || ^12.4.1",
+                "illuminate/container": "^11.44.2 || ^12.4.1",
+                "illuminate/contracts": "^11.44.2 || ^12.4.1",
+                "illuminate/database": "^11.44.2 || ^12.4.1",
+                "illuminate/http": "^11.44.2 || ^12.4.1",
+                "illuminate/pipeline": "^11.44.2 || ^12.4.1",
+                "illuminate/support": "^11.44.2 || ^12.4.1",
+                "php": "^8.2",
+                "phpstan/phpstan": "^2.1.32"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^13",
+                "laravel/framework": "^11.44.2 || ^12.7.2",
+                "mockery/mockery": "^1.6.12",
+                "nikic/php-parser": "^5.4",
+                "orchestra/canvas": "^v9.2.2 || ^10.0.1",
+                "orchestra/testbench-core": "^9.12.0 || ^10.1",
+                "phpstan/phpstan-deprecation-rules": "^2.0.1",
+                "phpunit/phpunit": "^10.5.35 || ^11.5.15"
+            },
+            "suggest": {
+                "orchestra/testbench": "Using Larastan for analysing a package needs Testbench",
+                "phpmyadmin/sql-parser": "Install to enable Larastan's optional phpMyAdmin-based SQL parser automatically"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "extension.neon"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Larastan\\Larastan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Can Vural",
+                    "email": "can9119@gmail.com"
+                }
+            ],
+            "description": "Larastan - Discover bugs in your code without running it. A phpstan/phpstan extension for Laravel",
+            "keywords": [
+                "PHPStan",
+                "code analyse",
+                "code analysis",
+                "larastan",
+                "laravel",
+                "package",
+                "php",
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/larastan/larastan/issues",
+                "source": "https://github.com/larastan/larastan/tree/v3.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/canvural",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-11T16:37:35+00:00"
         },
         {
             "name": "laravel/boost",
@@ -13177,6 +13797,133 @@
                 "source": "https://github.com/phar-io/version/tree/3.2.1"
             },
             "time": "2022-02-21T01:04:05+00:00"
+        },
+        {
+            "name": "php-debugbar/php-debugbar",
+            "version": "v2.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-debugbar/php-debugbar.git",
+                "reference": "c5dce08e98dd101c771e55949fd89124b216271d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-debugbar/php-debugbar/zipball/c5dce08e98dd101c771e55949fd89124b216271d",
+                "reference": "c5dce08e98dd101c771e55949fd89124b216271d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "psr/log": "^1|^2|^3",
+                "symfony/var-dumper": "^5.4|^6.4|^7.3|^8.0"
+            },
+            "replace": {
+                "maximebf/debugbar": "self.version"
+            },
+            "require-dev": {
+                "dbrekelmans/bdi": "^1",
+                "phpunit/phpunit": "^10",
+                "symfony/browser-kit": "^6.0|7.0",
+                "symfony/panther": "^1|^2.1",
+                "twig/twig": "^3.11.2"
+            },
+            "suggest": {
+                "kriswallsmith/assetic": "The best way to manage assets",
+                "monolog/monolog": "Log using Monolog",
+                "predis/predis": "Redis storage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DebugBar\\": "src/DebugBar/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maxime Bouroumeau-Fuseau",
+                    "email": "maxime.bouroumeau@gmail.com",
+                    "homepage": "http://maximebf.com"
+                },
+                {
+                    "name": "Barry vd. Heuvel",
+                    "email": "barryvdh@gmail.com"
+                }
+            ],
+            "description": "Debug bar in the browser for php application",
+            "homepage": "https://github.com/php-debugbar/php-debugbar",
+            "keywords": [
+                "debug",
+                "debug bar",
+                "debugbar",
+                "dev"
+            ],
+            "support": {
+                "issues": "https://github.com/php-debugbar/php-debugbar/issues",
+                "source": "https://github.com/php-debugbar/php-debugbar/tree/v2.2.5"
+            },
+            "time": "2025-12-21T08:50:08+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "2.1.33",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9e800e6bee7d5bd02784d4c6069b48032d16224f",
+                "reference": "9e800e6bee7d5bd02784d4c6069b48032d16224f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-12-05T10:24:31+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

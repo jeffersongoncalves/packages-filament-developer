@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "filament/filament": "^4.3",
         "jeffersongoncalves/filament-ace-editor-field": "1.x-dev",
         "jeffersongoncalves/filament-cep-field": "2.x-dev",
         "jeffersongoncalves/filament-check-whois-widget": "2.x-dev",
@@ -43,10 +44,15 @@
         "jeffersongoncalves/laravel-umami": "dev-master as 1.0.0",
         "jeffersongoncalves/laravel-whatsapp-widget": "dev-master as 1.0.0",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "livewire/livewire": "^3.7",
+        "wallacemartinss/filament-icon-picker": "^1.4"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.16",
+        "barryvdh/laravel-ide-helper": "^3.6",
         "fakerphp/faker": "^1.23",
+        "larastan/larastan": "^3.8",
         "laravel/boost": "^1.8",
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.24",
@@ -87,10 +93,13 @@
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan icons:cache"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php artisan vendor:publish --tag=livewire:assets --ansi --force",
+            "@php artisan filament:upgrade",
             "@php artisan boost:update --ansi"
         ],
         "post-root-package-install": [
@@ -101,6 +110,26 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ],
+        "ide-helper": [
+            "@php artisan ide-helper:generate -q",
+            "@php artisan ide-helper:meta -q",
+            "@php artisan ide-helper:model --write --reset -q -n",
+            "./vendor/bin/pint --config=pint.json -q"
+        ],
+        "pint": [
+            "./vendor/bin/pint --config=pint.json -q"
+        ],
+        "phpstan": [
+            "./vendor/bin/phpstan"
+        ],
+        "schedule": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd\" \"php artisan schedule:work\" --names=schedule"
+        ],
+        "queue": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd\" \"php artisan queue:listen --tries=1\" --names=queue"
         ]
     },
     "extra": {
