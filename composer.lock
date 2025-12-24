@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ba4df10d858b5d5b891a62d0c87d5b1",
+    "content-hash": "706d89062d82627e24c01f40a95a5373",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -71,6 +71,78 @@
                 "source": "https://github.com/AnourValar/eloquent-serialize/tree/1.3.5"
             },
             "time": "2025-12-04T13:38:21+00:00"
+        },
+        {
+            "name": "ashallendesign/favicon-fetcher",
+            "version": "v3.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ash-jc-allen/favicon-fetcher.git",
+                "reference": "567f12994a5d780b2b9d1be3b568ba5b36d07dd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ash-jc-allen/favicon-fetcher/zipball/567f12994a5d780b2b9d1be3b568ba5b36d07dd0",
+                "reference": "567f12994a5d780b2b9d1be3b568ba5b36d07dd0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.4",
+                "illuminate/cache": "^9.0|^10.0|^11.0|^12.0",
+                "illuminate/filesystem": "^9.0|^10.0|^11.0|^12.0",
+                "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+                "nesbot/carbon": "^2.0|^3.0",
+                "php": "^8.1",
+                "symfony/dom-crawler": "^6.3 || ^7.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.0|^3.0",
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.0|^10.0|^11.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AshAllenDesign\\FaviconFetcher\\FaviconFetcherProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AshAllenDesign\\FaviconFetcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ash Allen",
+                    "email": "mail@ashallendesign.co.uk"
+                }
+            ],
+            "description": "A Laravel package for fetching website's favicons.",
+            "homepage": "https://github.com/ash-jc-allen/favicon-fetcher",
+            "keywords": [
+                "ashallendesign",
+                "favicon",
+                "favicon-fetcher",
+                "icon"
+            ],
+            "support": {
+                "issues": "https://github.com/ash-jc-allen/favicon-fetcher/issues",
+                "source": "https://github.com/ash-jc-allen/favicon-fetcher/tree/v3.10.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ash-jc-allen",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-10-17T19:29:52+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -1595,6 +1667,84 @@
             "time": "2025-12-03T09:33:47+00:00"
         },
         {
+            "name": "giggsey/libphonenumber-for-php-lite",
+            "version": "9.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php-lite.git",
+                "reference": "ab593d0ced185c149459d283a770d842662dd54e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php-lite/zipball/ab593d0ced185c149459d283a770d842662dd54e",
+                "reference": "ab593d0ced185c149459d283a770d842662dd54e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "symfony/polyfill-mbstring": "^1.17"
+            },
+            "conflict": {
+                "giggsey/libphonenumber-for-php": "*"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "friendsofphp/php-cs-fixer": "^3.71",
+                "infection/infection": "^0.29|^0.31.0",
+                "nette/php-generator": "^4.1",
+                "php-coveralls/php-coveralls": "^2.7",
+                "phpstan/extension-installer": "^1.4.3",
+                "phpstan/phpstan": "^2.1.7",
+                "phpstan/phpstan-deprecation-rules": "^2.0.1",
+                "phpstan/phpstan-phpunit": "^2.0.4",
+                "phpstan/phpstan-strict-rules": "^2.0.3",
+                "phpunit/phpunit": "^10.5.45",
+                "symfony/console": "^6.4",
+                "symfony/filesystem": "^6.4",
+                "symfony/process": "^6.4"
+            },
+            "suggest": {
+                "giggsey/libphonenumber-for-php": "Use libphonenumber-for-php for geocoding, carriers, timezones and matching"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "libphonenumber\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "A lite version of giggsey/libphonenumber-for-php, which is a PHP Port of Google's libphonenumber",
+            "homepage": "https://github.com/giggsey/libphonenumber-for-php-lite",
+            "keywords": [
+                "geocoding",
+                "geolocation",
+                "libphonenumber",
+                "mobile",
+                "phonenumber",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/giggsey/libphonenumber-for-php-lite/issues",
+                "source": "https://github.com/giggsey/libphonenumber-for-php-lite"
+            },
+            "time": "2025-12-18T14:36:21+00:00"
+        },
+        {
             "name": "givebutter/laravel-keyable",
             "version": "v3.1.1",
             "source": {
@@ -2129,6 +2279,50 @@
             "time": "2025-08-22T14:27:06+00:00"
         },
         {
+            "name": "ip2whois/ip2whois-php",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ip2whois/ip2whois-php.git",
+                "reference": "88c3cd9a549b3d1ad6b13688b38f13282314bcbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ip2whois/ip2whois-php/zipball/88c3cd9a549b3d1ad6b13688b38f13282314bcbe",
+                "reference": "88c3cd9a549b3d1ad6b13688b38f13282314bcbe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IP2WHOIS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "IP2WHOIS",
+                    "homepage": "https://www.ip2whois.com"
+                }
+            ],
+            "description": "IP2WHOIS PHP SDK to help user to check WHOIS information for a particular domain.",
+            "support": {
+                "issues": "https://github.com/ip2whois/ip2whois-php/issues",
+                "source": "https://github.com/ip2whois/ip2whois-php/tree/2.2.0"
+            },
+            "time": "2022-08-23T04:20:23+00:00"
+        },
+        {
             "name": "jeffersongoncalves/filament-ace-editor-field",
             "version": "1.x-dev",
             "dist": {
@@ -2265,6 +2459,353 @@
             "keywords": [
                 "filament",
                 "filament-cep-field",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-check-whois-widget",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-check-whois-widget",
+                "reference": "1326a1823abc450fa08a2741dc433226a0936301"
+            },
+            "require": {
+                "ashallendesign/favicon-fetcher": "^3.5",
+                "filament/filament": "^4.0",
+                "ip2whois/ip2whois-php": "^2.2",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.15.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.0.1",
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^8.0",
+                "orchestra/testbench": "^9.0",
+                "pestphp/pest": "^2.1",
+                "pestphp/pest-plugin-arch": "^2.0",
+                "pestphp/pest-plugin-laravel": "^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\FilamentCheckWhoisWidget\\FilamentCheckWhoisWidgetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\FilamentCheckWhoisWidget\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "JeffersonGoncalves\\FilamentCheckWhoisWidget\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jèfferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Filament Check Whois Widget is a package for the Filament PHP framework that allows you to easily check the WHOIS information for domains. It integrates seamlessly with Filament's AdminPanel, providing a clean and user-friendly interface. The widget fetches WHOIS data using an external API (requiring an API key), displaying key details like registrant information, registration date, and expiry date. Configuration options allow for customization of the widget's appearance and behavior, such as setting the number of domains displayed per row, the column span, and whether to show a title. This simplifies the process of obtaining crucial domain information within your Filament application.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-check-whois-widget",
+            "keywords": [
+                "filament-check-whois-widget",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-check-whois-widget/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-check-whois-widget"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-cookie-consent",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-cookie-consent",
+                "reference": "ea8f5049c0b4cd96ac4f58e87d7dab5feff3d28f"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-cookie-consent": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\CookieConsent\\CookieConsentServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\CookieConsent\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Filament package provides a simple and elegant way to implement cookie consent on your website, ensuring compliance with privacy regulations like GDPR and CCPA. It offers a clean and customizable interface, allowing you to easily manage and display cookie consent banners and preferences.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-cookie-consent",
+            "keywords": [
+                "filament-cookie-consent",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-fathom",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-fathom",
+                "reference": "766481638e46900be35f8b4744db30acafb6459f"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-fathom": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Fathom\\FathomServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Fathom\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Laravel package seamlessly integrates Fathom analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Fathom's powerful analytics features to gain a clearer understanding of your audience and website usage.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-fathom",
+            "keywords": [
+                "filament-fathom",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-gtag",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-gtag",
+                "reference": "81c4af9cca05de49981e53081a4a416251b7a36a"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-gtag": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Gtag\\GtagServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Gtag\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Filament package integrates Google Analytics (Gtag) into your Laravel Blade templates, enabling seamless tracking of website visits and user interactions. It simplifies the process of adding analytics to your application, providing valuable insights into your audience and website performance with minimal setup.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-gtag",
+            "keywords": [
+                "filament-gtag",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-gtm",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-gtm",
+                "reference": "9ed6572ff78eb68f913a8d11f973a372e6354c3b"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-gtm": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Gtm\\GtmServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Gtm\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Laravel package seamlessly integrates Gtm analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Gtm's powerful analytics features to gain a clearer understanding of your audience and website usage.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-gtm",
+            "keywords": [
+                "filament-gtm",
                 "jeffersongoncalves",
                 "laravel"
             ],
@@ -2469,6 +3010,71 @@
             }
         },
         {
+            "name": "jeffersongoncalves/filament-matomo",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-matomo",
+                "reference": "e04361d304b14dbdfb0a7cb56a40775aa133bdba"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-matomo": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Matomo\\MatomoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Matomo\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple and elegant Laravel package that seamlessly integrates Matomo Analytics tracking code into your filament panel.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-matomo",
+            "keywords": [
+                "filament-matomo",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "jeffersongoncalves/filament-multifactor-whatsapp",
             "version": "1.x-dev",
             "dist": {
@@ -2539,6 +3145,202 @@
                 "two-factor",
                 "whatsapp",
                 "whatsapp-connector"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-one-time-operations",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-one-time-operations",
+                "reference": "adbb202c1260d3e7e9e3d2289b2de79acf0913f0"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0",
+                "timokoerber/laravel-one-time-operations": "^1.4"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\OneTimeOperations\\OneTimeOperationsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\OneTimeOperations\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is a Laravel Filament package that provides a One Time Operations functionality for web applications.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-one-time-operations",
+            "keywords": [
+                "filament",
+                "filament-one-time-operations",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-pixel",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-pixel",
+                "reference": "923a97be4fc66335de42cdfd583277c0bb751db1"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-pixel": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Pixel\\PixelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Pixel\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Filament Pixel is a Laravel package that seamlessly integrates Meta Pixel analytics into your Blade templates. Using your Meta Pixel ID, it enables easy tracking of website visits and user interactions, providing valuable insights into your audience and website performance. With minimal setup, you can leverage Meta’s powerful analytics features directly within your application, helping you optimize your digital strategy and improve user engagement.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-pixel",
+            "keywords": [
+                "filament-pixel",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-plausible",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-plausible",
+                "reference": "79dbd9c69ff1caa6b18ad7c1762001ed997657c7"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-plausible": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Plausible\\PlausibleServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Plausible\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A lightweight Filament package that seamlessly integrates Plausible Analytics into your filament panel. Plausible.io is a privacy-friendly, open-source alternative to Google Analytics.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-plausible",
+            "keywords": [
+                "filament-plausible",
+                "jeffersongoncalves",
+                "laravel"
             ],
             "transport-options": {
                 "relative": true
@@ -2733,6 +3535,137 @@
             "keywords": [
                 "filament",
                 "filament-topbar",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-umami",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-umami",
+                "reference": "a0c8796a939e0e1c3f9380e6d324ebc95f6582ac"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-umami": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Umami\\UmamiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Umami\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Laravel package seamlessly integrates Umami analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Umami's powerful analytics features to gain a clearer understanding of your audience and website usage.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-umami",
+            "keywords": [
+                "filament-umami",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-whatsapp-widget",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-whatsapp-widget",
+                "reference": "063c0442029f85104f976824be08793116302977"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-whatsapp-widget": "^1.0",
+                "laravel/framework": "^11.0|^12.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0",
+                "ysfkaya/filament-phone-input": "^4.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.24",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\WhatsappWidget\\WhatsappWidgetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\WhatsappWidget\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Filament package provides a simple yet customizable WhatsApp widget for your website. It allows you to easily add a clickable WhatsApp button or floating widget to connect visitors directly with your WhatsApp account. The widget is designed to be easily integrated into your Laravel application and is fully customizable to match your website's design.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-whatsapp-widget",
+            "keywords": [
+                "filament-whatsapp-widget",
                 "jeffersongoncalves",
                 "laravel"
             ],
@@ -6162,6 +7095,78 @@
             "time": "2021-08-15T12:53:48+00:00"
         },
         {
+            "name": "propaganistas/laravel-phone",
+            "version": "6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Propaganistas/Laravel-Phone.git",
+                "reference": "ae8239becf2c11c8a8a754b8ac95a10ebb3ebb91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Propaganistas/Laravel-Phone/zipball/ae8239becf2c11c8a8a754b8ac95a10ebb3ebb91",
+                "reference": "ae8239becf2c11c8a8a754b8ac95a10ebb3ebb91",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "giggsey/libphonenumber-for-php-lite": "^9.0",
+                "illuminate/contracts": "^11.0|^12.0",
+                "illuminate/support": "^11.0|^12.0",
+                "illuminate/validation": "^11.0|^12.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "*",
+                "phpunit/phpunit": "^11.5.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Propaganistas\\LaravelPhone\\PhoneServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Propaganistas\\LaravelPhone\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Propaganistas",
+                    "email": "Propaganistas@users.noreply.github.com"
+                }
+            ],
+            "description": "Adds phone number functionality to Laravel based on Google's libphonenumber API.",
+            "keywords": [
+                "laravel",
+                "libphonenumber",
+                "phone",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/Propaganistas/Laravel-Phone/issues",
+                "source": "https://github.com/Propaganistas/Laravel-Phone/tree/6.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Propaganistas",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-07-05T09:03:01+00:00"
+        },
+        {
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -7664,6 +8669,78 @@
                 }
             ],
             "time": "2024-09-25T14:21:43+00:00"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v7.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "0c5e8f20c74c78172a8ee72b125909b505033597"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/0c5e8f20c74c78172a8ee72b125909b505033597",
+                "reference": "0c5e8f20c74c78172a8ee72b125909b505033597",
+                "shasum": ""
+            },
+            "require": {
+                "masterminds/html5": "^2.6",
+                "php": ">=8.2",
+                "symfony/deprecation-contracts": "^2.5|^3",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "^6.4|^7.0|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Eases DOM navigation for HTML and XML documents",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/dom-crawler/tree/v7.4.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-12-06T15:47:47+00:00"
         },
         {
             "name": "symfony/error-handler",
@@ -9984,6 +11061,70 @@
             "time": "2025-12-02T11:56:42+00:00"
         },
         {
+            "name": "timokoerber/laravel-one-time-operations",
+            "version": "1.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimoKoerber/laravel-one-time-operations.git",
+                "reference": "df0cc43bb30681a3cbc0b6801d98958fe022e4ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimoKoerber/laravel-one-time-operations/zipball/df0cc43bb30681a3cbc0b6801d98958fe022e4ef",
+                "reference": "df0cc43bb30681a3cbc0b6801d98958fe022e4ef",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^9.0|^10.0|^11.0|^12.0",
+                "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "7|^9.0|^10.0",
+                "phpunit/phpunit": "^9.4|^10.5|^11.5.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TimoKoerber\\LaravelOneTimeOperations\\Providers\\OneTimeOperationsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TimoKoerber\\LaravelOneTimeOperations\\": "src/",
+                    "TimoKoerber\\LaravelOneTimeOperations\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "timo.koerber",
+                    "email": "koerber.timo@gmail.com",
+                    "homepage": "https://www.timokoerber.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Run operations once after deployment - just like you do it with migrations!",
+            "homepage": "https://github.com/timokoerber/laravel-one-time-operations",
+            "keywords": [
+                "deployment",
+                "jobs",
+                "laravel",
+                "migrations",
+                "operations"
+            ],
+            "support": {
+                "issues": "https://github.com/TimoKoerber/laravel-one-time-operations/issues",
+                "source": "https://github.com/TimoKoerber/laravel-one-time-operations/tree/1.4.5"
+            },
+            "time": "2025-02-27T12:11:38+00:00"
+        },
+        {
             "name": "ueberdosis/tiptap-php",
             "version": "2.0.0",
             "source": {
@@ -10340,6 +11481,70 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.12.1"
             },
             "time": "2025-10-29T15:56:20+00:00"
+        },
+        {
+            "name": "ysfkaya/filament-phone-input",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ysfkaya/filament-phone-input.git",
+                "reference": "9258ed00da844b60cf72ac8dbbacbef33e92b787"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ysfkaya/filament-phone-input/zipball/9258ed00da844b60cf72ac8dbbacbef33e92b787",
+                "reference": "9258ed00da844b60cf72ac8dbbacbef33e92b787",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2",
+                "propaganistas/laravel-phone": "^6.0",
+                "spatie/laravel-package-tools": "^1.92"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^8.1",
+                "nunomaduro/larastan": "^3.0",
+                "orchestra/testbench-dusk": "^10.0",
+                "pestphp/pest": "^3.0",
+                "pestphp/pest-plugin-arch": "^3.0",
+                "pestphp/pest-plugin-laravel": "^3.0",
+                "pestphp/pest-plugin-livewire": "^3.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ysfkaya\\FilamentPhoneInput\\FilamentPhoneInputServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ysfkaya\\FilamentPhoneInput\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A phone input component for Laravel Filament",
+            "homepage": "https://github.com/ysfkaya/filament-phone-input",
+            "keywords": [
+                "filament",
+                "intl-tel-input",
+                "laravel",
+                "phone-input"
+            ],
+            "support": {
+                "issues": "https://github.com/ysfkaya/filament-phone-input/issues",
+                "source": "https://github.com/ysfkaya/filament-phone-input/tree/v4.0.0"
+            },
+            "time": "2025-08-23T17:08:36+00:00"
         }
     ],
     "packages-dev": [
@@ -13625,13 +14830,24 @@
     "stability-flags": {
         "jeffersongoncalves/filament-ace-editor-field": 20,
         "jeffersongoncalves/filament-cep-field": 20,
+        "jeffersongoncalves/filament-check-whois-widget": 20,
+        "jeffersongoncalves/filament-cookie-consent": 20,
+        "jeffersongoncalves/filament-fathom": 20,
+        "jeffersongoncalves/filament-gtag": 20,
+        "jeffersongoncalves/filament-gtm": 20,
         "jeffersongoncalves/filament-hidden-action": 20,
         "jeffersongoncalves/filament-keyable": 20,
         "jeffersongoncalves/filament-logo": 20,
+        "jeffersongoncalves/filament-matomo": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
+        "jeffersongoncalves/filament-one-time-operations": 20,
+        "jeffersongoncalves/filament-pixel": 20,
+        "jeffersongoncalves/filament-plausible": 20,
         "jeffersongoncalves/filament-qrcode-field": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
         "jeffersongoncalves/filament-topbar": 20,
+        "jeffersongoncalves/filament-umami": 20,
+        "jeffersongoncalves/filament-whatsapp-widget": 20,
         "jeffersongoncalves/laravel-cep": 20,
         "jeffersongoncalves/laravel-cookie-consent": 20,
         "jeffersongoncalves/laravel-created-by": 20,
