@@ -114,3 +114,15 @@
 	path = packages/filament-pixel
 	url = git@github.com:jeffersongoncalves/filament-pixel.git
 	branch = 2.x
+[submodule "packages/filament-gtag"]
+	path = packages/filament-gtag
+	url = git@github.com:jeffersongoncalves/filament-gtag.git
+	branch = 2.x
+[submodule "packages/filament-gtm"]
+	path = packages/filament-gtm
+	url = git@github.com:jeffersongoncalves/filament-gtm.git
+	branch = 2.x
+[submodule "packages/filament-fathom"]
+	path = packages/filament-fathom
+	url = git@github.com:jeffersongoncalves/filament-fathom.git
+	branch = 2.x
