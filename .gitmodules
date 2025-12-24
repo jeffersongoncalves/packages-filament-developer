@@ -82,3 +82,35 @@
 	path = packages/filament-qrcode-field
 	url = git@github.com:jeffersongoncalves/filament-qrcode-field.git
 	branch = 2.x
+[submodule "packages/filament-one-time-operations"]
+	path = packages/filament-one-time-operations
+	url = git@github.com:jeffersongoncalves/filament-one-time-operations.git
+	branch = 2.x
+[submodule "packages/filament-whatsapp-widget"]
+	path = packages/filament-whatsapp-widget
+	url = git@github.com:jeffersongoncalves/filament-whatsapp-widget.git
+	branch = 2.x
+[submodule "packages/filament-cookie-consent"]
+	path = packages/filament-cookie-consent
+	url = git@github.com:jeffersongoncalves/filament-cookie-consent.git
+	branch = 2.x
+[submodule "packages/filament-check-whois-widget"]
+	path = packages/filament-check-whois-widget
+	url = git@github.com:jeffersongoncalves/filament-check-whois-widget.git
+	branch = 2.x
+[submodule "packages/filament-umami"]
+	path = packages/filament-umami
+	url = git@github.com:jeffersongoncalves/filament-umami.git
+	branch = 2.x
+[submodule "packages/filament-plausible"]
+	path = packages/filament-plausible
+	url = git@github.com:jeffersongoncalves/filament-plausible.git
+	branch = 2.x
+[submodule "packages/filament-matomo"]
+	path = packages/filament-matomo
+	url = git@github.com:jeffersongoncalves/filament-matomo.git
+	branch = 2.x
+[submodule "packages/filament-pixel"]
+	path = packages/filament-pixel
+	url = git@github.com:jeffersongoncalves/filament-pixel.git
+	branch = 2.x
