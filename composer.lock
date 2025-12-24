@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5af894a940df1f81a5fb6f6f5b2f24f1",
+    "content-hash": "590d1261f11420d1dfcc910d73677efe",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -12642,6 +12642,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jeffersongoncalves/filament-refresh-sidebar": 20,
         "jeffersongoncalves/laravel-cep": 20,
         "jeffersongoncalves/laravel-cookie-consent": 20,
         "jeffersongoncalves/laravel-created-by": 20,

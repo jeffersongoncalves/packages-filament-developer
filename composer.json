@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "jeffersongoncalves/filament-refresh-sidebar": "*",
+        "jeffersongoncalves/filament-refresh-sidebar": "1.x-dev",
         "jeffersongoncalves/laravel-cep": "dev-master",
         "jeffersongoncalves/laravel-cookie-consent": "dev-master",
         "jeffersongoncalves/laravel-created-by": "dev-master",
