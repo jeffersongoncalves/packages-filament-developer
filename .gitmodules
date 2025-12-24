@@ -70,3 +70,7 @@
 	path = packages/filament-keyable
 	url = git@github.com:jeffersongoncalves/filament-keyable.git
 	branch = 2.x
+[submodule "packages/filament-logo"]
+	path = packages/filament-logo
+	url = git@github.com:jeffersongoncalves/filament-logo.git
+	branch = 2.x

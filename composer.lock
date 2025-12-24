@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c565b9c0b0323c9654f077649d1ccdd8",
+    "content-hash": "60a03d2c1509dbb1f4cfaf0a24e676ca",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2318,6 +2318,70 @@
             "keywords": [
                 "filament",
                 "filament-keyable",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-logo",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-logo",
+                "reference": "f4b785325e33a15385b9ca86f72ab16f9bb1faf1"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Logo\\LogoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Logo\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple yet effective Filament plugin that automatically adds the Filament logo to your admin panel. This plugin enhances your Filament panel's user experience by displaying the logo in strategic locations.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-logo",
+            "keywords": [
+                "filament",
+                "filament-logo",
                 "jeffersongoncalves",
                 "laravel"
             ],
@@ -13346,6 +13410,7 @@
         "jeffersongoncalves/filament-ace-editor-field": 20,
         "jeffersongoncalves/filament-hidden-action": 20,
         "jeffersongoncalves/filament-keyable": 20,
+        "jeffersongoncalves/filament-logo": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
         "jeffersongoncalves/filament-topbar": 20,
