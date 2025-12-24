@@ -134,3 +134,11 @@
 	path = packages/laravel-help-desk
 	url = git@github.com:jeffersongoncalves/laravel-service-desk.git
 	branch = master
+[submodule "packages/filament-help-desk"]
+	path = packages/filament-help-desk
+	url = git@github.com:jeffersongoncalves/filament-help-desk.git
+	branch = 1.x
+[submodule "packages/filament-service-desk"]
+	path = packages/filament-service-desk
+	url = git@github.com:jeffersongoncalves/filament-service-desk.git
+	branch = 1.x
