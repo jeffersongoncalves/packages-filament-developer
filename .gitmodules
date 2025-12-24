@@ -46,3 +46,7 @@
 	path = packages/laravel-cep
 	url = git@github.com:jeffersongoncalves/laravel-cep.git
 	branch = master
+[submodule "packages/filament-refresh-sidebar"]
+	path = packages/filament-refresh-sidebar
+	url = git@github.com:jeffersongoncalves/filament-refresh-sidebar.git
+	branch = 1.x
