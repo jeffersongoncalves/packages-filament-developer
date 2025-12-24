@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f34f86f55f94b8f75a5743d5b1808241",
+    "content-hash": "e1995500eb0a7ec0cb2b65884b07e2f0",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2543,6 +2543,68 @@
             "transport-options": {
                 "relative": true
             }
+        },
+        {
+            "name": "jeffersongoncalves/filament-qrcode-field",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/filament-qrcode-field.git",
+                "reference": "67440a54a3521370df071171ac03b94b99f279ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-qrcode-field/zipball/67440a54a3521370df071171ac03b94b99f279ff",
+                "reference": "67440a54a3521370df071171ac03b94b99f279ff",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\QrCodeField\\QrCodeFieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\QrCodeField\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel Filament package that provides QR Code field functionality for your web applications. This package extends Filament v3 with a simple QR code input component.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-qrcode-field",
+            "keywords": [
+                "filament",
+                "filament-qrcode-field",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-qrcode-field/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-qrcode-field/tree/2.0.3"
+            },
+            "time": "2025-09-03T22:59:25+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-refresh-sidebar",
