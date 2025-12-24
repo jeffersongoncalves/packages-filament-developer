@@ -50,3 +50,11 @@
 	path = packages/filament-refresh-sidebar
 	url = git@github.com:jeffersongoncalves/filament-refresh-sidebar.git
 	branch = 1.x
+[submodule "packages/filament-hidden-action"]
+	path = packages/filament-hidden-action
+	url = git@github.com:jeffersongoncalves/filament-hidden-action.git
+	branch = 1.x
+[submodule "packages/filament-multifactor-whatsapp"]
+	path = packages/filament-multifactor-whatsapp
+	url = git@github.com:jeffersongoncalves/filament-multifactor-whatsapp.git
+	branch = 1.x

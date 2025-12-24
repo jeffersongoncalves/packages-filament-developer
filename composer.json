@@ -10,6 +10,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "jeffersongoncalves/filament-hidden-action": "1.x-dev",
+        "jeffersongoncalves/filament-multifactor-whatsapp": "1.x-dev",
         "jeffersongoncalves/filament-refresh-sidebar": "1.x-dev",
         "jeffersongoncalves/laravel-cep": "dev-master",
         "jeffersongoncalves/laravel-cookie-consent": "dev-master",
