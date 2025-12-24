@@ -153,10 +153,131 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/*",
-            "options": {
-                "symlink": true
-            }
+            "url": "../filament-ace-editor-field"
+        },
+        {
+            "type": "path",
+            "url": "../filament-cep-field"
+        },
+        {
+            "type": "path",
+            "url": "../filament-check-whois-widget"
+        },
+        {
+            "type": "path",
+            "url": "../filament-cookie-consent"
+        },
+        {
+            "type": "path",
+            "url": "../filament-fathom"
+        },
+        {
+            "type": "path",
+            "url": "../filament-gtag"
+        },
+        {
+            "type": "path",
+            "url": "../filament-gtm"
+        },
+        {
+            "type": "path",
+            "url": "../filament-hidden-action"
+        },
+        {
+            "type": "path",
+            "url": "../filament-keyable"
+        },
+        {
+            "type": "path",
+            "url": "../filament-logo"
+        },
+        {
+            "type": "path",
+            "url": "../filament-matomo"
+        },
+        {
+            "type": "path",
+            "url": "../filament-multifactor-whatsapp"
+        },
+        {
+            "type": "path",
+            "url": "../filament-one-time-operations"
+        },
+        {
+            "type": "path",
+            "url": "../filament-pixel"
+        },
+        {
+            "type": "path",
+            "url": "../filament-plausible"
+        },
+        {
+            "type": "path",
+            "url": "../filament-qrcode-field"
+        },
+        {
+            "type": "path",
+            "url": "../filament-refresh-sidebar"
+        },
+        {
+            "type": "path",
+            "url": "../filament-topbar"
+        },
+        {
+            "type": "path",
+            "url": "../filament-umami"
+        },
+        {
+            "type": "path",
+            "url": "../filament-whatsapp-widget"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-cep"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-cookie-consent"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-created-by"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-fake-cartoons"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-fathom"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-gtag"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-gtm"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-matomo"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-pixel"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-plausible"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-umami"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-whatsapp-widget"
         }
     ]
 }
