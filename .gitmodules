@@ -58,3 +58,7 @@
 	path = packages/filament-multifactor-whatsapp
 	url = git@github.com:jeffersongoncalves/filament-multifactor-whatsapp.git
 	branch = 1.x
+[submodule "packages/filament-ace-editor-field"]
+	path = packages/filament-ace-editor-field
+	url = git@github.com:jeffersongoncalves/filament-ace-editor-field.git
+	branch = 1.x

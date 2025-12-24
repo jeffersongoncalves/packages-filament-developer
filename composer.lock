@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d737fa961b500a28dbb7b1c9491360c",
+    "content-hash": "29a87f09dabe057ca50d41b61d9cf46c",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2066,6 +2066,71 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
+        },
+        {
+            "name": "jeffersongoncalves/filament-ace-editor-field",
+            "version": "1.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-ace-editor-field",
+                "reference": "e7d8c21aa7e617204dbbf72a6220454877ef3495"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\AceEditorField\\AceEditorFieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\AceEditorField\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel Filament v4 field that integrates the Ace code editor into your forms, providing a rich, syntax‑highlighted code editing experience.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-ace-editor-field",
+            "keywords": [
+                "ace-editor",
+                "filament",
+                "filament-ace-editor-field",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "jeffersongoncalves/filament-hidden-action",
@@ -13087,6 +13152,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jeffersongoncalves/filament-ace-editor-field": 20,
         "jeffersongoncalves/filament-hidden-action": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
