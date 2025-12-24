@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1995500eb0a7ec0cb2b65884b07e2f0",
+    "content-hash": "5ba4df10d858b5d5b891a62d0c87d5b1",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2546,17 +2546,11 @@
         },
         {
             "name": "jeffersongoncalves/filament-qrcode-field",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeffersongoncalves/filament-qrcode-field.git",
-                "reference": "67440a54a3521370df071171ac03b94b99f279ff"
-            },
+            "version": "2.x-dev",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-qrcode-field/zipball/67440a54a3521370df071171ac03b94b99f279ff",
-                "reference": "67440a54a3521370df071171ac03b94b99f279ff",
-                "shasum": ""
+                "type": "path",
+                "url": "./packages/filament-qrcode-field",
+                "reference": "2c443181bbb3194b5c3db9024a4ddecc5be5e49e"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2581,7 +2575,17 @@
                     "JeffersonGoncalves\\Filament\\QrCodeField\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -2600,11 +2604,9 @@
                 "jeffersongoncalves",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-qrcode-field/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-qrcode-field/tree/2.0.3"
-            },
-            "time": "2025-09-03T22:59:25+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "jeffersongoncalves/filament-refresh-sidebar",
@@ -13627,6 +13629,7 @@
         "jeffersongoncalves/filament-keyable": 20,
         "jeffersongoncalves/filament-logo": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
+        "jeffersongoncalves/filament-qrcode-field": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
         "jeffersongoncalves/filament-topbar": 20,
         "jeffersongoncalves/laravel-cep": 20,

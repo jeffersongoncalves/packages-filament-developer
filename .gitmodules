@@ -78,3 +78,7 @@
 	path = packages/filament-cep-field
 	url = git@github.com:jeffersongoncalves/filament-cep-field.git
 	branch = 2.x
+[submodule "packages/filament-qrcode-field"]
+	path = packages/filament-qrcode-field
+	url = git@github.com:jeffersongoncalves/filament-qrcode-field.git
+	branch = 2.x
