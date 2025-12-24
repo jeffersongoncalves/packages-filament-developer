@@ -66,3 +66,7 @@
 	path = packages/filament-topbar
 	url = git@github.com:jeffersongoncalves/filament-topbar.git
 	branch = 2.x
+[submodule "packages/filament-keyable"]
+	path = packages/filament-keyable
+	url = git@github.com:jeffersongoncalves/filament-keyable.git
+	branch = 2.x

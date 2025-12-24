@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5a3c8052097441c8e740ff95f873a3c",
+    "content-hash": "c565b9c0b0323c9654f077649d1ccdd8",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1595,6 +1595,67 @@
             "time": "2025-12-03T09:33:47+00:00"
         },
         {
+            "name": "givebutter/laravel-keyable",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/givebutter/laravel-keyable.git",
+                "reference": "a4e1d6fed5b02589877f12251b69a3c3b7ba664f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/givebutter/laravel-keyable/zipball/a4e1d6fed5b02589877f12251b69a3c3b7ba664f",
+                "reference": "a4e1d6fed5b02589877f12251b69a3c3b7ba664f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Givebutter\\LaravelKeyable\\KeyableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Givebutter\\LaravelKeyable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liran Cohen",
+                    "email": "liran@givebutter.com"
+                }
+            ],
+            "description": "Add API keys to your Laravel models",
+            "homepage": "https://github.com/givebutter/laravel-keyable",
+            "keywords": [
+                "api",
+                "api authentication",
+                "api keys",
+                "json",
+                "laravel",
+                "php",
+                "rest"
+            ],
+            "support": {
+                "issues": "https://github.com/givebutter/laravel-keyable/issues",
+                "source": "https://github.com/givebutter/laravel-keyable/tree/v3.1.1"
+            },
+            "time": "2025-07-08T05:39:59+00:00"
+        },
+        {
             "name": "graham-campbell/result-type",
             "version": "v1.1.3",
             "source": {
@@ -2192,6 +2253,72 @@
                 "hidden-action",
                 "jeffersongoncalves",
                 "keyboard-shortcuts",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-keyable",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-keyable",
+                "reference": "48f0ed415cc9858d30bdf36ff666f108cbf6a572"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "givebutter/laravel-keyable": "^3.1",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Keyable\\KeyableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Keyable\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is a Laravel Filament package that provides a Keyable functionality for web applications.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-keyable",
+            "keywords": [
+                "filament",
+                "filament-keyable",
+                "jeffersongoncalves",
                 "laravel"
             ],
             "transport-options": {
@@ -13218,6 +13345,7 @@
     "stability-flags": {
         "jeffersongoncalves/filament-ace-editor-field": 20,
         "jeffersongoncalves/filament-hidden-action": 20,
+        "jeffersongoncalves/filament-keyable": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
         "jeffersongoncalves/filament-topbar": 20,
