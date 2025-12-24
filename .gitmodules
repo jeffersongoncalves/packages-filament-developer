@@ -62,3 +62,7 @@
 	path = packages/filament-ace-editor-field
 	url = git@github.com:jeffersongoncalves/filament-ace-editor-field.git
 	branch = 1.x
+[submodule "packages/filament-topbar"]
+	path = packages/filament-topbar
+	url = git@github.com:jeffersongoncalves/filament-topbar.git
+	branch = 2.x

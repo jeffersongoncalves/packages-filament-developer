@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29a87f09dabe057ca50d41b61d9cf46c",
+    "content-hash": "c5a3c8052097441c8e740ff95f873a3c",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2337,6 +2337,70 @@
                 "navigation",
                 "refresh",
                 "sidebar"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-topbar",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-topbar",
+                "reference": "4e025cda32b2267c8b39a2e2147d314fa8afc483"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Topbar\\TopbarServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Topbar\\": "src"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple yet effective Filament plugin that automatically adds a customized topbar to your Filament admin panel. This plugin enhances your Filament panel's user experience by replacing the default topbar component with an improved version that displays navigation and user interface elements in strategic locations.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-topbar",
+            "keywords": [
+                "filament",
+                "filament-topbar",
+                "jeffersongoncalves",
+                "laravel"
             ],
             "transport-options": {
                 "relative": true
@@ -13156,6 +13220,7 @@
         "jeffersongoncalves/filament-hidden-action": 20,
         "jeffersongoncalves/filament-multifactor-whatsapp": 20,
         "jeffersongoncalves/filament-refresh-sidebar": 20,
+        "jeffersongoncalves/filament-topbar": 20,
         "jeffersongoncalves/laravel-cep": 20,
         "jeffersongoncalves/laravel-cookie-consent": 20,
         "jeffersongoncalves/laravel-created-by": 20,
