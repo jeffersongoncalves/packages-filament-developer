@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60a03d2c1509dbb1f4cfaf0a24e676ca",
+    "content-hash": "f34f86f55f94b8f75a5743d5b1808241",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2186,6 +2186,85 @@
                 "ace-editor",
                 "filament",
                 "filament-ace-editor-field",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "jeffersongoncalves/filament-cep-field",
+            "version": "2.x-dev",
+            "dist": {
+                "type": "path",
+                "url": "./packages/filament-cep-field",
+                "reference": "a5dc621411297ba49686c8d9524fb6b95641dcac"
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "jeffersongoncalves/laravel-cep": "^1.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0",
+                "pestphp/pest": "^3.7.4",
+                "pestphp/pest-plugin-laravel": "^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\CepField\\CepFieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\CepField\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\CepField\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench icons:cache",
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Filament CEP Field is a custom input component designed specifically for Brazilian postal codes (CEP - Código de Endereçamento Postal). This component extends Filament's form capabilities by providing a specialized input field that handles CEP formatting, validation, and automatic address lookup.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-cep-field",
+            "keywords": [
+                "filament",
+                "filament-cep-field",
                 "jeffersongoncalves",
                 "laravel"
             ],
@@ -13404,10 +13483,84 @@
             "time": "2025-12-08T11:19:18+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "jeffersongoncalves/laravel-cep",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-cookie-consent",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-created-by",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-fake-cartoons",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-fathom",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-gtag",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-gtm",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-matomo",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-pixel",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-plausible",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-umami",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        },
+        {
+            "package": "jeffersongoncalves/laravel-whatsapp-widget",
+            "version": "9999999-dev",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "jeffersongoncalves/filament-ace-editor-field": 20,
+        "jeffersongoncalves/filament-cep-field": 20,
         "jeffersongoncalves/filament-hidden-action": 20,
         "jeffersongoncalves/filament-keyable": 20,
         "jeffersongoncalves/filament-logo": 20,

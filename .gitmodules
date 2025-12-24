@@ -74,3 +74,7 @@
 	path = packages/filament-logo
 	url = git@github.com:jeffersongoncalves/filament-logo.git
 	branch = 2.x
+[submodule "packages/filament-cep-field"]
+	path = packages/filament-cep-field
+	url = git@github.com:jeffersongoncalves/filament-cep-field.git
+	branch = 2.x

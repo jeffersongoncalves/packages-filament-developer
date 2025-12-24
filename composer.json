@@ -11,24 +11,25 @@
     "require": {
         "php": "^8.2",
         "jeffersongoncalves/filament-ace-editor-field": "1.x-dev",
+        "jeffersongoncalves/filament-cep-field": "2.x-dev",
         "jeffersongoncalves/filament-hidden-action": "1.x-dev",
         "jeffersongoncalves/filament-keyable": "2.x-dev",
         "jeffersongoncalves/filament-logo": "2.x-dev",
         "jeffersongoncalves/filament-multifactor-whatsapp": "1.x-dev",
         "jeffersongoncalves/filament-refresh-sidebar": "1.x-dev",
         "jeffersongoncalves/filament-topbar": "2.x-dev",
-        "jeffersongoncalves/laravel-cep": "dev-master",
-        "jeffersongoncalves/laravel-cookie-consent": "dev-master",
-        "jeffersongoncalves/laravel-created-by": "dev-master",
-        "jeffersongoncalves/laravel-fake-cartoons": "dev-master",
-        "jeffersongoncalves/laravel-fathom": "dev-master",
-        "jeffersongoncalves/laravel-gtag": "dev-master",
-        "jeffersongoncalves/laravel-gtm": "dev-master",
-        "jeffersongoncalves/laravel-matomo": "dev-master",
-        "jeffersongoncalves/laravel-pixel": "dev-master",
-        "jeffersongoncalves/laravel-plausible": "dev-master",
-        "jeffersongoncalves/laravel-umami": "dev-master",
-        "jeffersongoncalves/laravel-whatsapp-widget": "dev-master",
+        "jeffersongoncalves/laravel-cep": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-cookie-consent": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-created-by": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-fake-cartoons": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-fathom": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-gtag": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-gtm": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-matomo": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-pixel": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-plausible": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-umami": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-whatsapp-widget": "dev-master as 1.0.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
@@ -61,8 +62,8 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "@php artisan key:generate",
             "@php artisan migrate --force",
-            "npm install",
-            "npm run build"
+            "pnpm install",
+            "pnpm run build"
         ],
         "dev": [
             "Composer\\Config::disableProcessTimeout",
@@ -84,9 +85,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate --ansi",
-            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
-            "@php artisan migrate --graceful --ansi"
+            "@php artisan key:generate --ansi"
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
