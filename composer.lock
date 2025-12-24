@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e0ace6e85fa8b151de9e9ecdcea1754",
+    "content-hash": "0a791f87631d415b671854cf576df79b",
     "packages": [
         {
             "name": "achyutn/filament-log-viewer",
@@ -2460,8 +2460,8 @@
             "version": "1.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-ace-editor-field",
-                "reference": "9e88ab74bb89b4dbcfc454d02dce79adc6646ef2"
+                "url": "../filament-ace-editor-field",
+                "reference": "4d908777625d3d138e66a2880e90faa233e137fb"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2517,7 +2517,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2526,8 +2525,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-cep-field",
-                "reference": "e21d5e9afef6a36107f449d2f55b8d04130ff4b8"
+                "url": "../filament-cep-field",
+                "reference": "dc3f972530bef2a70d83c27110571414b4f95577"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2597,7 +2596,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2606,8 +2604,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-check-whois-widget",
-                "reference": "f2aca5c49f229ae31aef5e02fb20dcaeece05177"
+                "url": "../filament-check-whois-widget",
+                "reference": "237961e743420b5a28fe2962e247d7f4e1217a05"
             },
             "require": {
                 "ashallendesign/favicon-fetcher": "^3.5",
@@ -2685,7 +2683,6 @@
                 "source": "https://github.com/jeffersongoncalves/filament-check-whois-widget"
             },
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2694,8 +2691,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-cookie-consent",
-                "reference": "e929be1e48311bd0b4e7d11f5cf154917f173c65"
+                "url": "../filament-cookie-consent",
+                "reference": "a8cfa73f34be87d51e5fd8fa83ca67e5b4448655"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2751,7 +2748,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2760,8 +2756,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-fathom",
-                "reference": "3afce31d3f2003ada5a9b6f74c0097fbc183be10"
+                "url": "../filament-fathom",
+                "reference": "89602cbaa5b9d7af2c82dfac51e00399f54c56c2"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2817,7 +2813,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2826,8 +2821,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-gtag",
-                "reference": "1ec47ddfd2764a1896b2d5a67ff5c32da7600ea8"
+                "url": "../filament-gtag",
+                "reference": "61340f6382517fea99305a2e619525491faa829e"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2883,7 +2878,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2892,8 +2886,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-gtm",
-                "reference": "6828ac07305b268209d2ba54902a5fbdbd48bd71"
+                "url": "../filament-gtm",
+                "reference": "4aa1f89c57e6fe436b13c9dfeac087f6b888ba41"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2949,7 +2943,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -2958,8 +2951,8 @@
             "version": "1.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-hidden-action",
-                "reference": "af4cc1c859fa604c9a29d10430b10377ac22e038"
+                "url": "../filament-hidden-action",
+                "reference": "26f9fbce287bc1ba19bd52c44f4217f13c6aba87"
             },
             "require": {
                 "filament/actions": "^4.0",
@@ -3016,7 +3009,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3025,8 +3017,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-keyable",
-                "reference": "9f9bb390c44dd136c338c2d98a74fda93fbdc64d"
+                "url": "../filament-keyable",
+                "reference": "99e48f349ea13293f50ee6531bfbfbaa147677c3"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3083,7 +3075,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3092,8 +3083,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-logo",
-                "reference": "38477a253bebd61bc9829267acd9dcf09bd831cf"
+                "url": "../filament-logo",
+                "reference": "8373e8dfd8212fa6d50119346d8189a9f20342f9"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3148,7 +3139,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3157,8 +3147,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-matomo",
-                "reference": "2c99764895e521406b1fe3d4dc97f97fc23b5d84"
+                "url": "../filament-matomo",
+                "reference": "d2474e8b8fbd47b53cbd3911b501a80cb73e80a6"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3214,7 +3204,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3223,8 +3212,8 @@
             "version": "1.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-multifactor-whatsapp",
-                "reference": "6eed23a35f880ec65a462324ded3e60ab2fbc55b"
+                "url": "../filament-multifactor-whatsapp",
+                "reference": "28527c2680f98826258cf4c1e9bd9dcd642715f3"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3291,7 +3280,6 @@
                 "whatsapp-connector"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3300,8 +3288,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-one-time-operations",
-                "reference": "4bc18ee77b48839a55f23b5b0254bde7f5fbc520"
+                "url": "../filament-one-time-operations",
+                "reference": "3e011db48d25c0a65bdb6b3f91b14361d9adb96a"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3358,7 +3346,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3367,8 +3354,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-pixel",
-                "reference": "61798b77f25d93e99645fdcfa08b158aa9f51f94"
+                "url": "../filament-pixel",
+                "reference": "20189005b1e7a37731f08d73fa424ecf04f6e5b8"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3424,7 +3411,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3433,8 +3419,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-plausible",
-                "reference": "9f287aa5893df60805ad3292d07629e69745a4db"
+                "url": "../filament-plausible",
+                "reference": "cc73a54dab786d82e715e9aefadc332566a616b4"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3490,7 +3476,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3499,8 +3484,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-qrcode-field",
-                "reference": "e52911e84a83cf1a0f6343613330034e00829a0f"
+                "url": "../filament-qrcode-field",
+                "reference": "1016e0513812ceab085bf94e90d4e4ca4adcab3f"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3555,7 +3540,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3564,8 +3548,8 @@
             "version": "1.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-refresh-sidebar",
-                "reference": "3875f4b835f3160fa29b60d86cba101a424348a7"
+                "url": "../filament-refresh-sidebar",
+                "reference": "18eef60b83f8f31b754bc982233c2683574ca9d9"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3624,7 +3608,6 @@
                 "sidebar"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3633,8 +3616,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-topbar",
-                "reference": "3e7bc27421c1fdd7f744c8ea7388e2d1b7546260"
+                "url": "../filament-topbar",
+                "reference": "1c5cfda1bf893f996823b0b157fcbc7b1c514c2e"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3689,7 +3672,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3698,8 +3680,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-umami",
-                "reference": "b83308e164907cdbe066a2eca558c0e7c87a1207"
+                "url": "../filament-umami",
+                "reference": "9fb9630284983d4fa43bde178d398d4c40997378"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3755,7 +3737,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3764,8 +3745,8 @@
             "version": "2.x-dev",
             "dist": {
                 "type": "path",
-                "url": "./packages/filament-whatsapp-widget",
-                "reference": "3687aadb233370fc11085fb06f50ae1692d112c1"
+                "url": "../filament-whatsapp-widget",
+                "reference": "cd42cf7a3d38fc9340a83e37f4aadeb0cfa015ef"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3822,7 +3803,6 @@
                 "laravel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3831,8 +3811,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-cep",
-                "reference": "7607251e2a0db6fe39c13c1e5cb06630837fd67c"
+                "url": "../laravel-cep",
+                "reference": "2b113666fa567b91aff4313c2ca429c6833e22fd"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3896,7 +3876,6 @@
                 "laravel-cep"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3905,8 +3884,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-cookie-consent",
-                "reference": "b04133b33de6496830a527096d483d537e5005bd"
+                "url": "../laravel-cookie-consent",
+                "reference": "ff015a764308837ea5fa146b7e3dfa3d76367c90"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -3959,7 +3938,6 @@
                 "laravel-cookie-consent"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -3968,8 +3946,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-created-by",
-                "reference": "e48cbf92505a1ff2b3d2ddfba8ec9c3a505be086"
+                "url": "../laravel-created-by",
+                "reference": "c9a1d16662428a1aa69ed84eed609ddad8f1c77e"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4035,7 +4013,6 @@
                 "laravel-created-by"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4044,8 +4021,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-fake-cartoons",
-                "reference": "8e03733a8063112c73e9f5ef89d6259e2611bbd3"
+                "url": "../laravel-fake-cartoons",
+                "reference": "cc99dcdb0dea31b22ba47c1cee62882da1c2b1fd"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4104,7 +4081,6 @@
                 "laravel-fake-cartoons"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4113,8 +4089,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-fathom",
-                "reference": "8350e74cbd1de1710cc9fcdccee7e9ce0f65ee95"
+                "url": "../laravel-fathom",
+                "reference": "1b465c4e16212e678329d0ef1ad1f74b0518c8a4"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4175,7 +4151,6 @@
                 "laravel-fathom"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4184,8 +4159,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-gtag",
-                "reference": "2a31785a9f3145bdd97953c9edaf65773f6fd080"
+                "url": "../laravel-gtag",
+                "reference": "7bcf1331baf9c99ae821bf5e454e2b6bf2137eda"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4246,7 +4221,6 @@
                 "laravel-gtag"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4255,8 +4229,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-gtm",
-                "reference": "cd72b362d564836ff63ac6a37d5cdaa77b2f1180"
+                "url": "../laravel-gtm",
+                "reference": "8bac69bd59ad4aefeb6f399b72278dd35ad5b192"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4317,7 +4291,6 @@
                 "laravel-gtm"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4326,8 +4299,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-matomo",
-                "reference": "9cd2e09359d5e7c6ecab433ac1fee0ecff620aca"
+                "url": "../laravel-matomo",
+                "reference": "f522c42414b623c12fc802eeaaffb2c1d5405f35"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4388,7 +4361,6 @@
                 "laravel-matomo"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4397,8 +4369,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-pixel",
-                "reference": "8bdfdbbed0b4a5de3fac2fde06b3da91f7923a57"
+                "url": "../laravel-pixel",
+                "reference": "595a6969457cae48283595d3af6842776216c0c6"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4459,7 +4431,6 @@
                 "laravel-pixel"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4468,8 +4439,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-plausible",
-                "reference": "54498527b2c17940157a34d49ca4e0600f86812c"
+                "url": "../laravel-plausible",
+                "reference": "a0e63fe9d6f36e9804fa0c167a21e0e72eba6883"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4530,7 +4501,6 @@
                 "laravel-plausible"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4539,8 +4509,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-umami",
-                "reference": "30878f86b065024c85b50e63c87eb0684d5f0b23"
+                "url": "../laravel-umami",
+                "reference": "61a5882bdf4ad03ec400ff80eb4c328db53904eb"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4601,7 +4571,6 @@
                 "laravel-umami"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
@@ -4610,8 +4579,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "./packages/laravel-whatsapp-widget",
-                "reference": "e3f6838f779251cc9a188dfb87d3a8d3a0487197"
+                "url": "../laravel-whatsapp-widget",
+                "reference": "f3f761bb27b09d57f350de66e266751e684ff4c2"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -4677,7 +4646,6 @@
                 "laravel-whatsapp-widget"
             ],
             "transport-options": {
-                "symlink": true,
                 "relative": true
             }
         },
