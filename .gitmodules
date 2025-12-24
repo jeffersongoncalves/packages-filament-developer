@@ -126,3 +126,7 @@
 	path = packages/filament-fathom
 	url = git@github.com:jeffersongoncalves/filament-fathom.git
 	branch = 2.x
+[submodule "packages/laravel-service-desk"]
+	path = packages/laravel-service-desk
+	url = git@github.com:jeffersongoncalves/laravel-service-desk.git
+	branch = master
