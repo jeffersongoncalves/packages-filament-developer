@@ -10,6 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "achyutn/filament-log-viewer": "^1.6",
         "filament/filament": "^4.3",
         "jeffersongoncalves/filament-ace-editor-field": "1.x-dev",
         "jeffersongoncalves/filament-cep-field": "2.x-dev",
