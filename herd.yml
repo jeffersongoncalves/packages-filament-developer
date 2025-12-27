@@ -1,5 +1,5 @@
 name: packages-filament-developer
-php: '8.3'
+php: '8.2'
 secured: true
 aliases: {  }
 services: {  }
