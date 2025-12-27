@@ -3885,7 +3885,7 @@
             "dist": {
                 "type": "path",
                 "url": "../laravel-cookie-consent",
-                "reference": "ab1701737bf27fa613470616b815d5a237088573"
+                "reference": "13068e732ded1e91fd26437e11752b5b607f5cd6"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
