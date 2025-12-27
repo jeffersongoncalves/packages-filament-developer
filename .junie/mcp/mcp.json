@@ -3,7 +3,7 @@
         "laravel-boost": {
             "command": "C:\\Users\\simao\\.config\\herd\\bin\\php82\\php.exe",
             "args": [
-                "C:\\Users\\simao\\PROJETOS\\PROJECTS\\packages-filament-developer\\artisan",
+                "C:\\Users\\simao\\PROJETOS\\PROJECTS\\filakit\\artisan",
                 "boost:mcp"
             ]
         },
@@ -13,7 +13,7 @@
                 "C:/Users/simao/.config/herd/bin/herd-mcp.phar"
             ],
             "env": {
-                "SITE_PATH": "C:\\Users\\simao\\PROJETOS\\PROJECTS\\packages-filament-developer"
+                "SITE_PATH": "C:\\Users\\simao\\PROJETOS\\PROJECTS\\filakit"
             }
         }
     }
