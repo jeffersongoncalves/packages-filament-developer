@@ -22,6 +22,6 @@ return [
             'text' => '#000000',
         ],
     ],
-    'position' => 'bottom-right', // top-left, top-right, bottom-left, bottom-right
+    'position' => 'top-right', // top-left, top-right, bottom-left, bottom-right
     'theme' => 'block', // block, edgeless, classic
 ];
