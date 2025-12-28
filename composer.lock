@@ -3082,7 +3082,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-qrcode-field",
-                "reference": "9e5afa5c58f18d9b2b185d7accfd5a76ac3ca147"
+                "reference": "7bdbe6d5f4321cd45b6dca195c2962815c81a9ae"
             },
             "require": {
                 "filament/filament": "^3.0",
