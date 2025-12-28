@@ -3,7 +3,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
@@ -229,51 +232,51 @@
         },
         {
             "type": "path",
-            "url": "../laravel-cep"
+            "url": "../../laravel-cep"
         },
         {
             "type": "path",
-            "url": "../laravel-cookie-consent"
+            "url": "../../laravel-cookie-consent"
         },
         {
             "type": "path",
-            "url": "../laravel-created-by"
+            "url": "../../laravel-created-by"
         },
         {
             "type": "path",
-            "url": "../laravel-fake-cartoons"
+            "url": "../../laravel-fake-cartoons"
         },
         {
             "type": "path",
-            "url": "../laravel-fathom"
+            "url": "../../laravel-fathom"
         },
         {
             "type": "path",
-            "url": "../laravel-gtag"
+            "url": "../../laravel-gtag"
         },
         {
             "type": "path",
-            "url": "../laravel-gtm"
+            "url": "../../laravel-gtm"
         },
         {
             "type": "path",
-            "url": "../laravel-matomo"
+            "url": "../../laravel-matomo"
         },
         {
             "type": "path",
-            "url": "../laravel-pixel"
+            "url": "../../laravel-pixel"
         },
         {
             "type": "path",
-            "url": "../laravel-plausible"
+            "url": "../../laravel-plausible"
         },
         {
             "type": "path",
-            "url": "../laravel-umami"
+            "url": "../../laravel-umami"
         },
         {
             "type": "path",
-            "url": "../laravel-whatsapp-widget"
+            "url": "../../laravel-whatsapp-widget"
         },
         {
             "type": "path",
