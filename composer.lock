@@ -3146,7 +3146,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-qrcode-field",
-                "reference": "cb45a118424feb05e0e6fa32facf057e8b3b8ea0"
+                "reference": "9d991adbe92630b39468a4c9c91ddd46e36da4a0"
             },
             "require": {
                 "filament/filament": "^5.0",
