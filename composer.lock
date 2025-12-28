@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe6e6a9c3bb3988eca7bd477eabc76ec",
+    "content-hash": "c3ab6701d9b191f0acfd86519f23b284",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -4169,69 +4169,6 @@
             "transport-options": {
                 "relative": true
             }
-        },
-        {
-            "name": "jeffersongoncalves/laravel-whatsapp-widget",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeffersongoncalves/laravel-whatsapp-widget.git",
-                "reference": "97acc51806e371f54e5adb027412d776472ec085"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-whatsapp-widget/zipball/97acc51806e371f54e5adb027412d776472ec085",
-                "reference": "97acc51806e371f54e5adb027412d776472ec085",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^11.0|^12.0",
-                "php": "^8.2|^8.3",
-                "spatie/laravel-package-tools": "^1.14.0"
-            },
-            "require-dev": {
-                "larastan/larastan": "^3.0",
-                "orchestra/testbench": "^9.0|^10.0",
-                "pestphp/pest": "^3.7.4",
-                "pestphp/pest-plugin-laravel": "^3.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "JeffersonGoncalves\\WhatsappWidget\\WhatsappWidgetServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JeffersonGoncalves\\WhatsappWidget\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jefferson Gonçalves",
-                    "email": "gerson.simao.92@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "This Laravel package provides a simple yet customizable WhatsApp widget for your website. It allows you to easily add a clickable WhatsApp button or floating widget to connect visitors directly with your WhatsApp account. The widget is designed to be easily integrated into your Laravel application and is fully customizable to match your website's design.",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-whatsapp-widget",
-            "keywords": [
-                "jeffersongoncalves",
-                "laravel",
-                "laravel-whatsapp-widget"
-            ],
-            "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-whatsapp-widget/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-whatsapp-widget/tree/master"
-            },
-            "time": "2025-12-27T21:07:20+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
@@ -14811,12 +14748,6 @@
             "version": "9999999-dev",
             "alias": "1.0.0",
             "alias_normalized": "1.0.0.0"
-        },
-        {
-            "package": "jeffersongoncalves/laravel-whatsapp-widget",
-            "version": "9999999-dev",
-            "alias": "1.4.0",
-            "alias_normalized": "1.4.0.0"
         }
     ],
     "minimum-stability": "dev",
@@ -14849,8 +14780,7 @@
         "jeffersongoncalves/laravel-matomo": 20,
         "jeffersongoncalves/laravel-pixel": 20,
         "jeffersongoncalves/laravel-plausible": 20,
-        "jeffersongoncalves/laravel-umami": 20,
-        "jeffersongoncalves/laravel-whatsapp-widget": 20
+        "jeffersongoncalves/laravel-umami": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

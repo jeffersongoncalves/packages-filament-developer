@@ -143,8 +143,8 @@ return [
 
     'model_locations' => [
         'app',
-        'packages/laravel-cep/src/Models',
-        'packages/laravel-whatsapp-widget/src/Models',
+        'vendor/jeffersongoncalves/laravel-cep/src/Models',
+        'vendor/jeffersongoncalves/laravel-whatsapp-widget/src/Models',
     ],
 
     /*
