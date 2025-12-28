@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "662307d92e9aab8a1ffec77dad35dab9",
+    "content-hash": "12a324d1e0895dfa9e723727e582eb3a",
     "packages": [
         {
             "name": "achyutn/filament-log-viewer",
@@ -2526,7 +2526,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-cep-field",
-                "reference": "dc3f972530bef2a70d83c27110571414b4f95577"
+                "reference": "3b9dfd0a2e80ceac6d74dba8899cf8bb77b15def"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2605,7 +2605,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-check-whois-widget",
-                "reference": "237961e743420b5a28fe2962e247d7f4e1217a05"
+                "reference": "384b483b359a240c16b9dca86fb13a71ceb08622"
             },
             "require": {
                 "ashallendesign/favicon-fetcher": "^3.5",
@@ -2692,7 +2692,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-cookie-consent",
-                "reference": "9b6d5872abed54b5323571995ac7b2e909f03fd9"
+                "reference": "f0022e4cecf0ee134fb272959f74535f884f23b2"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2758,7 +2758,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-fathom",
-                "reference": "89602cbaa5b9d7af2c82dfac51e00399f54c56c2"
+                "reference": "e771c3666e255715fc8be9bcc36de9225f375684"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2823,7 +2823,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-gtag",
-                "reference": "61340f6382517fea99305a2e619525491faa829e"
+                "reference": "2302b346625c5664b5c835e8999b8af3d1f74ddc"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -2888,7 +2888,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-gtm",
-                "reference": "4aa1f89c57e6fe436b13c9dfeac087f6b888ba41"
+                "reference": "763ec3875648bf678ad689c0faa676f5a081ffd6"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3019,7 +3019,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-keyable",
-                "reference": "99e48f349ea13293f50ee6531bfbfbaa147677c3"
+                "reference": "98a2d3c6cf55cf7ebad11012b2288ded75003da0"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3085,7 +3085,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-logo",
-                "reference": "8373e8dfd8212fa6d50119346d8189a9f20342f9"
+                "reference": "3ba2cce6775ac9e5345bb7a080aae819a01bd4fa"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3149,7 +3149,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-matomo",
-                "reference": "d2474e8b8fbd47b53cbd3911b501a80cb73e80a6"
+                "reference": "44c14103d1a52807bd0781ec704953b4fcb8af4d"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3290,7 +3290,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-one-time-operations",
-                "reference": "3e011db48d25c0a65bdb6b3f91b14361d9adb96a"
+                "reference": "21a48c33b22ee087b1fefab884dc359a82df8022"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3356,7 +3356,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-pixel",
-                "reference": "20189005b1e7a37731f08d73fa424ecf04f6e5b8"
+                "reference": "76cbd53a7f022f0decd834837eec7913e320d6f7"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3421,7 +3421,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-plausible",
-                "reference": "cc73a54dab786d82e715e9aefadc332566a616b4"
+                "reference": "a99e7626dd21f8d624618bd9ea7b63f37206474b"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3618,7 +3618,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-topbar",
-                "reference": "1c5cfda1bf893f996823b0b157fcbc7b1c514c2e"
+                "reference": "014897b2b9eb8b126d13b31ba6aef0ccc51aeaee"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3682,7 +3682,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-umami",
-                "reference": "9fb9630284983d4fa43bde178d398d4c40997378"
+                "reference": "f50fcd912658736f9be7236e5dd35f457d19a5dc"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -3747,11 +3747,11 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-whatsapp-widget",
-                "reference": "cd42cf7a3d38fc9340a83e37f4aadeb0cfa015ef"
+                "reference": "ce77ebc97a3f0f83a398efcc91c5f5b8b8b8756b"
             },
             "require": {
                 "filament/filament": "^4.0",
-                "jeffersongoncalves/laravel-whatsapp-widget": "^1.0",
+                "jeffersongoncalves/laravel-whatsapp-widget": "^1.4",
                 "laravel/framework": "^11.0|^12.0",
                 "php": "^8.2|^8.3",
                 "spatie/laravel-package-tools": "^1.14.0",
@@ -3812,7 +3812,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-cep",
+                "url": "../../laravel-cep",
                 "reference": "2b113666fa567b91aff4313c2ca429c6833e22fd"
             },
             "require": {
@@ -3885,7 +3885,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-cookie-consent",
+                "url": "../../laravel-cookie-consent",
                 "reference": "13068e732ded1e91fd26437e11752b5b607f5cd6"
             },
             "require": {
@@ -3948,7 +3948,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-created-by",
+                "url": "../../laravel-created-by",
                 "reference": "c9a1d16662428a1aa69ed84eed609ddad8f1c77e"
             },
             "require": {
@@ -4023,7 +4023,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-fake-cartoons",
+                "url": "../../laravel-fake-cartoons",
                 "reference": "cc99dcdb0dea31b22ba47c1cee62882da1c2b1fd"
             },
             "require": {
@@ -4091,7 +4091,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-fathom",
+                "url": "../../laravel-fathom",
                 "reference": "1b465c4e16212e678329d0ef1ad1f74b0518c8a4"
             },
             "require": {
@@ -4161,7 +4161,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-gtag",
+                "url": "../../laravel-gtag",
                 "reference": "7bcf1331baf9c99ae821bf5e454e2b6bf2137eda"
             },
             "require": {
@@ -4231,7 +4231,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-gtm",
+                "url": "../../laravel-gtm",
                 "reference": "8bac69bd59ad4aefeb6f399b72278dd35ad5b192"
             },
             "require": {
@@ -4301,7 +4301,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-matomo",
+                "url": "../../laravel-matomo",
                 "reference": "f522c42414b623c12fc802eeaaffb2c1d5405f35"
             },
             "require": {
@@ -4371,7 +4371,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-pixel",
+                "url": "../../laravel-pixel",
                 "reference": "595a6969457cae48283595d3af6842776216c0c6"
             },
             "require": {
@@ -4441,7 +4441,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-plausible",
+                "url": "../../laravel-plausible",
                 "reference": "a0e63fe9d6f36e9804fa0c167a21e0e72eba6883"
             },
             "require": {
@@ -4511,7 +4511,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-umami",
+                "url": "../../laravel-umami",
                 "reference": "61a5882bdf4ad03ec400ff80eb4c328db53904eb"
             },
             "require": {
@@ -4581,8 +4581,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-whatsapp-widget",
-                "reference": "b168ed12b4deb746934f47524be4db222eb5770c"
+                "url": "../../laravel-whatsapp-widget",
+                "reference": "15a8a269915fb3824d8a9e39c6cac920c4dad6b7"
             },
             "require": {
                 "laravel/framework": "^11.0|^12.0",
@@ -5146,7 +5146,7 @@
             "dist": {
                 "type": "path",
                 "url": "../filament-world-clock",
-                "reference": "02a320974ebdb08a255bb68e4e53f4fde9aec491"
+                "reference": "2c4ab55084d6829ebedebe77386d110dd9fb1768"
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -16560,8 +16560,8 @@
         {
             "package": "jeffersongoncalves/laravel-whatsapp-widget",
             "version": "9999999-dev",
-            "alias": "1.0.0",
-            "alias_normalized": "1.0.0.0"
+            "alias": "1.4.0",
+            "alias_normalized": "1.4.0.0"
         }
     ],
     "minimum-stability": "dev",
@@ -16608,7 +16608,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.2"
+        "php": "^8.3"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"

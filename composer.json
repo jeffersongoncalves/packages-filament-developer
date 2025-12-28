@@ -6,7 +6,7 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "achyutn/filament-log-viewer": "^1.6",
         "filament/filament": "^4.3",
         "jeffersongoncalves/filament-ace-editor-field": "1.x-dev",
@@ -40,7 +40,7 @@
         "jeffersongoncalves/laravel-pixel": "dev-master as 1.0.0",
         "jeffersongoncalves/laravel-plausible": "dev-master as 1.0.0",
         "jeffersongoncalves/laravel-umami": "dev-master as 1.0.0",
-        "jeffersongoncalves/laravel-whatsapp-widget": "dev-master as 1.0.0",
+        "jeffersongoncalves/laravel-whatsapp-widget": "dev-master as 1.4.0",
         "joaopaulolndev/filament-check-ssl-widget": "2.x-dev",
         "joaopaulolndev/filament-edit-env": "2.x-dev",
         "joaopaulolndev/filament-edit-profile": "2.x-dev",
@@ -98,8 +98,7 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
-            "@php artisan icons:cache",
-            "@php artisan filament:upgrade"
+            "@php artisan icons:cache"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
@@ -236,51 +235,51 @@
         },
         {
             "type": "path",
-            "url": "../laravel-cep"
+            "url": "../../laravel-cep"
         },
         {
             "type": "path",
-            "url": "../laravel-cookie-consent"
+            "url": "../../laravel-cookie-consent"
         },
         {
             "type": "path",
-            "url": "../laravel-created-by"
+            "url": "../../laravel-created-by"
         },
         {
             "type": "path",
-            "url": "../laravel-fake-cartoons"
+            "url": "../../laravel-fake-cartoons"
         },
         {
             "type": "path",
-            "url": "../laravel-fathom"
+            "url": "../../laravel-fathom"
         },
         {
             "type": "path",
-            "url": "../laravel-gtag"
+            "url": "../../laravel-gtag"
         },
         {
             "type": "path",
-            "url": "../laravel-gtm"
+            "url": "../../laravel-gtm"
         },
         {
             "type": "path",
-            "url": "../laravel-matomo"
+            "url": "../../laravel-matomo"
         },
         {
             "type": "path",
-            "url": "../laravel-pixel"
+            "url": "../../laravel-pixel"
         },
         {
             "type": "path",
-            "url": "../laravel-plausible"
+            "url": "../../laravel-plausible"
         },
         {
             "type": "path",
-            "url": "../laravel-umami"
+            "url": "../../laravel-umami"
         },
         {
             "type": "path",
-            "url": "../laravel-whatsapp-widget"
+            "url": "../../laravel-whatsapp-widget"
         },
         {
             "type": "path",
