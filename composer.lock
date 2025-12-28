@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f97632ba330e9f4f6ed6d38f6deffb6",
+    "content-hash": "e169289392bcc27c4f7ddb64d0f27da3",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3338,7 +3338,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-cep",
+                "url": "../../laravel-cep",
                 "reference": "2b113666fa567b91aff4313c2ca429c6833e22fd"
             },
             "require": {
@@ -3411,7 +3411,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-cookie-consent",
+                "url": "../../laravel-cookie-consent",
                 "reference": "13068e732ded1e91fd26437e11752b5b607f5cd6"
             },
             "require": {
@@ -3474,7 +3474,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-created-by",
+                "url": "../../laravel-created-by",
                 "reference": "c9a1d16662428a1aa69ed84eed609ddad8f1c77e"
             },
             "require": {
@@ -3549,7 +3549,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-fake-cartoons",
+                "url": "../../laravel-fake-cartoons",
                 "reference": "cc99dcdb0dea31b22ba47c1cee62882da1c2b1fd"
             },
             "require": {
@@ -3617,7 +3617,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-fathom",
+                "url": "../../laravel-fathom",
                 "reference": "1b465c4e16212e678329d0ef1ad1f74b0518c8a4"
             },
             "require": {
@@ -3687,7 +3687,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-gtag",
+                "url": "../../laravel-gtag",
                 "reference": "7bcf1331baf9c99ae821bf5e454e2b6bf2137eda"
             },
             "require": {
@@ -3757,7 +3757,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-gtm",
+                "url": "../../laravel-gtm",
                 "reference": "8bac69bd59ad4aefeb6f399b72278dd35ad5b192"
             },
             "require": {
@@ -3827,7 +3827,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-matomo",
+                "url": "../../laravel-matomo",
                 "reference": "f522c42414b623c12fc802eeaaffb2c1d5405f35"
             },
             "require": {
@@ -3897,7 +3897,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-pixel",
+                "url": "../../laravel-pixel",
                 "reference": "595a6969457cae48283595d3af6842776216c0c6"
             },
             "require": {
@@ -3967,7 +3967,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-plausible",
+                "url": "../../laravel-plausible",
                 "reference": "a0e63fe9d6f36e9804fa0c167a21e0e72eba6883"
             },
             "require": {
@@ -4037,7 +4037,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-umami",
+                "url": "../../laravel-umami",
                 "reference": "61a5882bdf4ad03ec400ff80eb4c328db53904eb"
             },
             "require": {
@@ -4107,7 +4107,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../laravel-whatsapp-widget",
+                "url": "../../laravel-whatsapp-widget",
                 "reference": "15a8a269915fb3824d8a9e39c6cac920c4dad6b7"
             },
             "require": {

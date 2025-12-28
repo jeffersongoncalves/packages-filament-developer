@@ -152,10 +152,6 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../filament-ace-editor-field"
-        },
-        {
-            "type": "path",
             "url": "../filament-cep-field"
         },
         {
@@ -180,10 +176,6 @@
         },
         {
             "type": "path",
-            "url": "../filament-hidden-action"
-        },
-        {
-            "type": "path",
             "url": "../filament-keyable"
         },
         {
@@ -193,10 +185,6 @@
         {
             "type": "path",
             "url": "../filament-matomo"
-        },
-        {
-            "type": "path",
-            "url": "../filament-multifactor-whatsapp"
         },
         {
             "type": "path",
@@ -213,10 +201,6 @@
         {
             "type": "path",
             "url": "../filament-qrcode-field"
-        },
-        {
-            "type": "path",
-            "url": "../filament-refresh-sidebar"
         },
         {
             "type": "path",
