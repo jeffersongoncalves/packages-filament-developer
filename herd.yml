@@ -1,4 +1,4 @@
-name: packages-filament-developer-v4
+name: packages-filament-developer-v5
 php: '8.2'
 secured: true
 aliases: {  }
