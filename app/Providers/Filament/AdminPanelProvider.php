@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use DieterCoopman\LaravelNewsTile\LaravelNewsTileComponent;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -19,6 +20,8 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use JeffersonGoncalves\Filament\WhatsappWidget\WhatsappWidgetPlugin;
+use JeffersonGoncalves\FilamentDashboard\DashboardPlugin;
+use Spatie\VeloTile\VeloTileComponent;
 
 class AdminPanelProvider extends PanelProvider
 {

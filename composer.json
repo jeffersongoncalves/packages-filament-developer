@@ -9,11 +9,13 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
+        "dietercoopman/laravel-dashboard-laravelnews-tile": "^1.2",
         "filament/filament": "^3.3",
         "jeffersongoncalves/filament-cep-field": "1.x-dev",
         "jeffersongoncalves/filament-check-whois-widget": "1.x-dev",
         "jeffersongoncalves/filament-cookie-consent": "1.x-dev",
+        "jeffersongoncalves/filament-dashboard": "1.x-dev",
         "jeffersongoncalves/filament-fathom": "1.x-dev",
         "jeffersongoncalves/filament-gtag": "1.x-dev",
         "jeffersongoncalves/filament-gtm": "1.x-dev",
@@ -47,7 +49,8 @@
         "joaopaulolndev/filament-world-clock": "dev-main",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
-        "livewire/livewire": "^3.7"
+        "livewire/livewire": "^3.7",
+        "spatie/laravel-dashboard-velo-tile": "^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.16",
@@ -285,6 +288,10 @@
         {
             "type": "path",
             "url": "../filament-edit-env"
+        },
+        {
+            "type": "path",
+            "url": "../filament-dashboard"
         }
     ]
 }
