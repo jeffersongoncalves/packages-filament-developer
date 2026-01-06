@@ -304,6 +304,10 @@
         {
             "type": "path",
             "url": "../filament-edit-env"
+        },
+        {
+            "type": "path",
+            "url": "../filament-dashboard"
         }
     ]
 }

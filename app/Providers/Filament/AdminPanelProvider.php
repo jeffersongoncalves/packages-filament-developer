@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use App\Filament\Resources\Products\Pages\ListProducts;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -10,6 +11,7 @@ use Filament\Pages\Dashboard;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\View\PanelsRenderHook;
 use Filament\Widgets\AccountWidget;
 use Filament\Widgets\FilamentInfoWidget;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
@@ -17,7 +19,10 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use JeffersonGoncalves\Filament\WhatsappWidget\Resources\WhatsappAgentResource\Pages\ListWhatsappAgents;
+use JeffersonGoncalves\Filament\WhatsappWidget\WhatsappWidgetPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -54,6 +59,20 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ]);
+            ])
+            ->plugins([
+                WhatsappWidgetPlugin::make(),
+            ])
+            ->renderHook(PanelsRenderHook::HEAD_START, fn() => Blade::render(<<<HTML
+<style>
+.fi-ta-header-toolbar > div:not(.fi-ta-actions) {
+    flex: 1 !important;
+}
+.fi-ta-search-field {
+    flex: 1 !important;
+}
+</style>
+HTML
+            ), [ListProducts::class, ListWhatsappAgents::class]);
     }
 }
