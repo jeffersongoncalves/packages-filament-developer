@@ -63,7 +63,7 @@ class AdminPanelProvider extends PanelProvider
             ->plugins([
                 WhatsappWidgetPlugin::make(),
             ])
-            ->renderHook(PanelsRenderHook::HEAD_START, fn() => Blade::render(<<<HTML
+            ->renderHook(PanelsRenderHook::HEAD_START, fn () => Blade::render(<<<'HTML'
 <style>
 .fi-ta-header-toolbar > div:not(.fi-ta-actions) {
     flex: 1 !important;
